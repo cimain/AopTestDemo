@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "Test1ViewController.h"
 
 @interface ViewController ()
+
+@property (nonatomic,strong)  UINavigationController *naviVC;
 
 @end
 
@@ -16,13 +19,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Test1ViewController *test1 = [[Test1ViewController alloc] init];
+    _naviVC = [[UINavigationController alloc] initWithRootViewController:test1];
+    [self.view addSubview:_naviVC.view];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
 }
 
 

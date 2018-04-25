@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C3D480023EB14419FCE2B040 /* libPods-AopTestDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69BFADF50FFAA94F40C6E975 /* libPods-AopTestDemo.a */; };
 		F700C0912090787E00FF3600 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C0902090787E00FF3600 /* AppDelegate.m */; };
 		F700C0942090787E00FF3600 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C0932090787E00FF3600 /* ViewController.m */; };
 		F700C0972090787E00FF3600 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F700C0952090787E00FF3600 /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		F700C09F2090787E00FF3600 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C09E2090787E00FF3600 /* main.m */; };
 		F700C0A92090787E00FF3600 /* AopTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C0A82090787E00FF3600 /* AopTestDemoTests.m */; };
 		F700C0B42090787E00FF3600 /* AopTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C0B32090787E00FF3600 /* AopTestDemoUITests.m */; };
+		F700C0C420907AC400FF3600 /* TraceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C0C320907AC400FF3600 /* TraceHandler.m */; };
+		F700C0C920907B8300FF3600 /* UIViewController+Trace.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C0C820907B8300FF3600 /* UIViewController+Trace.m */; };
+		F785BF6420907D0E00C12012 /* AppDelegate+Trace.m in Sources */ = {isa = PBXBuildFile; fileRef = F785BF6320907D0E00C12012 /* AppDelegate+Trace.m */; };
+		F785BF6720907D2E00C12012 /* TraceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F785BF6620907D2E00C12012 /* TraceManager.m */; };
+		F785BF6A20907DEA00C12012 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F785BF6920907DEA00C12012 /* Test1ViewController.m */; };
+		F785BF6D20907DF700C12012 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F785BF6C20907DF700C12012 /* Test2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34D188716BE872AAEFF26A6F /* Pods-AopTestDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AopTestDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AopTestDemo/Pods-AopTestDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		69BFADF50FFAA94F40C6E975 /* libPods-AopTestDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AopTestDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		872B27620BBB23AA83EB8746 /* Pods-AopTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AopTestDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AopTestDemo/Pods-AopTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F700C08C2090787E00FF3600 /* AopTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AopTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F700C08F2090787E00FF3600 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F700C0902090787E00FF3600 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +61,18 @@
 		F700C0AF2090787E00FF3600 /* AopTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AopTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F700C0B32090787E00FF3600 /* AopTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AopTestDemoUITests.m; sourceTree = "<group>"; };
 		F700C0B52090787E00FF3600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F700C0C220907AC400FF3600 /* TraceHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraceHandler.h; sourceTree = "<group>"; };
+		F700C0C320907AC400FF3600 /* TraceHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraceHandler.m; sourceTree = "<group>"; };
+		F700C0C720907B8300FF3600 /* UIViewController+Trace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Trace.h"; sourceTree = "<group>"; };
+		F700C0C820907B8300FF3600 /* UIViewController+Trace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Trace.m"; sourceTree = "<group>"; };
+		F785BF6220907D0E00C12012 /* AppDelegate+Trace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Trace.h"; sourceTree = "<group>"; };
+		F785BF6320907D0E00C12012 /* AppDelegate+Trace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Trace.m"; sourceTree = "<group>"; };
+		F785BF6520907D2E00C12012 /* TraceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraceManager.h; sourceTree = "<group>"; };
+		F785BF6620907D2E00C12012 /* TraceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraceManager.m; sourceTree = "<group>"; };
+		F785BF6820907DEA00C12012 /* Test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		F785BF6920907DEA00C12012 /* Test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		F785BF6B20907DF700C12012 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		F785BF6C20907DF700C12012 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D480023EB14419FCE2B040 /* libPods-AopTestDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B11368BEC9919F318211757A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69BFADF50FFAA94F40C6E975 /* libPods-AopTestDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35A663A0194EF88E248F164 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34D188716BE872AAEFF26A6F /* Pods-AopTestDemo.debug.xcconfig */,
+				872B27620BBB23AA83EB8746 /* Pods-AopTestDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F700C0832090787E00FF3600 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +125,8 @@
 				F700C0A72090787E00FF3600 /* AopTestDemoTests */,
 				F700C0B22090787E00FF3600 /* AopTestDemoUITests */,
 				F700C08D2090787E00FF3600 /* Products */,
+				D35A663A0194EF88E248F164 /* Pods */,
+				B11368BEC9919F318211757A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +143,8 @@
 		F700C08E2090787E00FF3600 /* AopTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F785BF6120907CCD00C12012 /* TestViewController */,
+				F700C0C12090789000FF3600 /* CMAopPackage */,
 				F700C08F2090787E00FF3600 /* AppDelegate.h */,
 				F700C0902090787E00FF3600 /* AppDelegate.m */,
 				F700C0922090787E00FF3600 /* ViewController.h */,
@@ -132,6 +176,48 @@
 			path = AopTestDemoUITests;
 			sourceTree = "<group>";
 		};
+		F700C0C12090789000FF3600 /* CMAopPackage */ = {
+			isa = PBXGroup;
+			children = (
+				F700C0C620907AE000FF3600 /* ForAppDelegate */,
+				F700C0C520907ACD00FF3600 /* ForCategory */,
+			);
+			path = CMAopPackage;
+			sourceTree = "<group>";
+		};
+		F700C0C520907ACD00FF3600 /* ForCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F700C0C720907B8300FF3600 /* UIViewController+Trace.h */,
+				F700C0C820907B8300FF3600 /* UIViewController+Trace.m */,
+				F700C0C220907AC400FF3600 /* TraceHandler.h */,
+				F700C0C320907AC400FF3600 /* TraceHandler.m */,
+			);
+			path = ForCategory;
+			sourceTree = "<group>";
+		};
+		F700C0C620907AE000FF3600 /* ForAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F785BF6220907D0E00C12012 /* AppDelegate+Trace.h */,
+				F785BF6320907D0E00C12012 /* AppDelegate+Trace.m */,
+				F785BF6520907D2E00C12012 /* TraceManager.h */,
+				F785BF6620907D2E00C12012 /* TraceManager.m */,
+			);
+			path = ForAppDelegate;
+			sourceTree = "<group>";
+		};
+		F785BF6120907CCD00C12012 /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F785BF6820907DEA00C12012 /* Test1ViewController.h */,
+				F785BF6920907DEA00C12012 /* Test1ViewController.m */,
+				F785BF6B20907DF700C12012 /* Test2ViewController.h */,
+				F785BF6C20907DF700C12012 /* Test2ViewController.m */,
+			);
+			path = TestViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F700C0B82090787E00FF3600 /* Build configuration list for PBXNativeTarget "AopTestDemo" */;
 			buildPhases = (
+				50AE1F7E62E506CA8F8459AF /* [CP] Check Pods Manifest.lock */,
 				F700C0882090787E00FF3600 /* Sources */,
 				F700C0892090787E00FF3600 /* Frameworks */,
 				F700C08A2090787E00FF3600 /* Resources */,
+				EBB6D4FB1D2E67687B2CAF73 /* [CP] Embed Pods Frameworks */,
+				FF32293FFB53AD47415DE577 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +349,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50AE1F7E62E506CA8F8459AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBB6D4FB1D2E67687B2CAF73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AopTestDemo/Pods-AopTestDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF32293FFB53AD47415DE577 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AopTestDemo/Pods-AopTestDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F700C0882090787E00FF3600 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F785BF6A20907DEA00C12012 /* Test1ViewController.m in Sources */,
 				F700C0942090787E00FF3600 /* ViewController.m in Sources */,
+				F700C0C920907B8300FF3600 /* UIViewController+Trace.m in Sources */,
+				F785BF6D20907DF700C12012 /* Test2ViewController.m in Sources */,
+				F785BF6720907D2E00C12012 /* TraceManager.m in Sources */,
 				F700C09F2090787E00FF3600 /* main.m in Sources */,
+				F700C0C420907AC400FF3600 /* TraceHandler.m in Sources */,
+				F785BF6420907D0E00C12012 /* AppDelegate+Trace.m in Sources */,
 				F700C0912090787E00FF3600 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +562,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -428,6 +571,7 @@
 		};
 		F700C0B92090787E00FF3600 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34D188716BE872AAEFF26A6F /* Pods-AopTestDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +586,7 @@
 		};
 		F700C0BA2090787E00FF3600 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872B27620BBB23AA83EB8746 /* Pods-AopTestDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
