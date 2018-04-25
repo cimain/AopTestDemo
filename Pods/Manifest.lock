@@ -1,0 +1,12 @@
+PODS:
+  - Aspects (1.4.1)
+
+DEPENDENCIES:
+  - Aspects
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+
+PODFILE CHECKSUM: 6c00c4ac3a08dbcc4f053274e5deb4e47a4194e8
+
+COCOAPODS: 1.2.1
