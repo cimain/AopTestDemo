@@ -7,7 +7,25 @@
 		<key>AopTestDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F700C08B2090787E00FF3600</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F700C0A32090787E00FF3600</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F700C0AE2090787E00FF3600</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

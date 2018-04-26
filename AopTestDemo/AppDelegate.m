@@ -7,6 +7,14 @@
 //
 
 #import "AppDelegate.h"
+//#import "AppDelegate+Trace.h"
+#import "AspectMananer.h"
+
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import <CocoaLumberjack.h>
+
+#import "Test1ViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -16,8 +24,39 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //创建窗口
+    _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    _window.backgroundColor = [UIColor whiteColor];
+    [_window makeKeyAndVisible];
+    UINavigationController *nvi = [[UINavigationController alloc]initWithRootViewController:[Test1ViewController new]];
+    self.window.rootViewController = nvi;
+    
+    
+    [self loadForDDLog];
+    
 //    [AppDelegate setupLogging];
+    [AspectMananer trackAspectHooks];
     return YES;
+}
+
+- (void)loadForDDLog{
+    
+    [DDLog addLogger:[DDTTYLogger sharedInstance]]; // TTY = Xcode console
+//    [DDLog addLogger:[DDASLLogger sharedInstance]]; // ASL = Apple System Logs
+    
+    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];// 启用颜色区分
+    [[DDTTYLogger sharedInstance] setForegroundColor:[UIColor blueColor] backgroundColor:nil forFlag:DDLogLevelDebug];// 可以修改你想要的颜色
+    
+//    DDFileLogger *fileLogger = [[DDFileLogger alloc] init]; // File Logger
+//    fileLogger.rollingFrequency = 60 * 60 * 24; // 24 hour rolling
+//    fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
+//    [DDLog addLogger:fileLogger];
+    
+//    DDLogError(@"错误信息"); // 红色
+//    DDLogWarn(@"警告%@",@"asd"); // 橙色
+//    DDLogInfo(@"提示信息:%@",@"嘎嘎"); // 默认是黑色
+//    DDLogVerbose(@"详细信息error:%d",1016); // 默认是黑色
 }
 
 

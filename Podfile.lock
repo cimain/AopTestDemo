@@ -1,12 +1,20 @@
 PODS:
   - Aspects (1.4.1)
+  - CocoaLumberjack (3.4.0):
+    - CocoaLumberjack/Default (= 3.4.0)
+    - CocoaLumberjack/Extensions (= 3.4.0)
+  - CocoaLumberjack/Default (3.4.0)
+  - CocoaLumberjack/Extensions (3.4.0):
+    - CocoaLumberjack/Default
 
 DEPENDENCIES:
   - Aspects
+  - CocoaLumberjack
 
 SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  CocoaLumberjack: e033a5d8513357af2dd456eb66e202c325c30627
 
-PODFILE CHECKSUM: 6c00c4ac3a08dbcc4f053274e5deb4e47a4194e8
+PODFILE CHECKSUM: b1aa79032dd89410f862dc6e917b8228b613ef5c
 
 COCOAPODS: 1.2.1

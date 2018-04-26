@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AopTestDemo/ViewController.m"
-            timestampString = "546401526.4138989"
+            filePath = "AopTestDemo/CMAopPackage/TestWithPlist/ForAppDelegateWithPlist/AspectMananer.m"
+            timestampString = "546428232.126781"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "+trackViewAppear"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,14 +41,78 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AopTestDemo/AppDelegate.m"
-            timestampString = "546341120.619249"
+            filePath = "AopTestDemo/CMAopPackage/TestWithPlist/ForAppDelegateWithPlist/AspectMananer.m"
+            timestampString = "546428232.126845"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "-application:didFinishLaunchingWithOptions:"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "+trackViewAppear"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AopTestDemo/CMAopPackage/AOPTestWithPlist/ForAppDelegateWithPlist/AspectMananer.m"
+            timestampString = "546433069.239225"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "+trackAspectHooks"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AopTestDemo/CMAopPackage/AOPTestWithPlist/ForAppDelegateWithPlist/AspectMananer.m"
+            timestampString = "546433069.239302"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "+trackEventWithClass:selector:eventID:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[AspectMananer trackEventWithClass:selector:eventID:]"
+                  moduleName = "AopTestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ChenMan/iOSTest/AopTestDemo/AopTestDemo/CMAopPackage/AOPTestWithPlist/ForAppDelegateWithPlist/AspectMananer.m"
+                  timestampString = "546431785.927904"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "75">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__54+[AspectMananer trackEventWithClass:selector:eventID:]_block_invoke"
+                  moduleName = "AopTestDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ChenMan/iOSTest/AopTestDemo/AopTestDemo/CMAopPackage/AOPTestWithPlist/ForAppDelegateWithPlist/AspectMananer.m"
+                  timestampString = "546431785.929989"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

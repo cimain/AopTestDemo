@@ -18,10 +18,15 @@
 		F700C0B42090787E00FF3600 /* AopTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C0B32090787E00FF3600 /* AopTestDemoUITests.m */; };
 		F700C0C420907AC400FF3600 /* TraceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C0C320907AC400FF3600 /* TraceHandler.m */; };
 		F700C0C920907B8300FF3600 /* UIViewController+Trace.m in Sources */ = {isa = PBXBuildFile; fileRef = F700C0C820907B8300FF3600 /* UIViewController+Trace.m */; };
+		F73C3E522091D6A800480219 /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73C3E512091D6A800480219 /* Test3ViewController.m */; };
+		F73C3E552091D6B400480219 /* Test4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73C3E542091D6B400480219 /* Test4ViewController.m */; };
+		F772630F20917AAB00CAC501 /* AspectMananer.m in Sources */ = {isa = PBXBuildFile; fileRef = F772630E20917AAB00CAC501 /* AspectMananer.m */; };
+		F77521432091E0C700E90F74 /* EventList.plist in Resources */ = {isa = PBXBuildFile; fileRef = F77521422091E0C700E90F74 /* EventList.plist */; };
 		F785BF6420907D0E00C12012 /* AppDelegate+Trace.m in Sources */ = {isa = PBXBuildFile; fileRef = F785BF6320907D0E00C12012 /* AppDelegate+Trace.m */; };
 		F785BF6720907D2E00C12012 /* TraceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F785BF6620907D2E00C12012 /* TraceManager.m */; };
 		F785BF6A20907DEA00C12012 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F785BF6920907DEA00C12012 /* Test1ViewController.m */; };
 		F785BF6D20907DF700C12012 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F785BF6C20907DF700C12012 /* Test2ViewController.m */; };
+		F7C010CF2091B42700436271 /* NSObject+GetKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C010CD2091B42700436271 /* NSObject+GetKeys.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,13 @@
 		F700C0C320907AC400FF3600 /* TraceHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TraceHandler.m; sourceTree = "<group>"; };
 		F700C0C720907B8300FF3600 /* UIViewController+Trace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Trace.h"; sourceTree = "<group>"; };
 		F700C0C820907B8300FF3600 /* UIViewController+Trace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Trace.m"; sourceTree = "<group>"; };
+		F73C3E502091D6A800480219 /* Test3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
+		F73C3E512091D6A800480219 /* Test3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
+		F73C3E532091D6B400480219 /* Test4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test4ViewController.h; sourceTree = "<group>"; };
+		F73C3E542091D6B400480219 /* Test4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test4ViewController.m; sourceTree = "<group>"; };
+		F772630D20917AAB00CAC501 /* AspectMananer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AspectMananer.h; sourceTree = "<group>"; };
+		F772630E20917AAB00CAC501 /* AspectMananer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AspectMananer.m; sourceTree = "<group>"; };
+		F77521422091E0C700E90F74 /* EventList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EventList.plist; sourceTree = "<group>"; };
 		F785BF6220907D0E00C12012 /* AppDelegate+Trace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Trace.h"; sourceTree = "<group>"; };
 		F785BF6320907D0E00C12012 /* AppDelegate+Trace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Trace.m"; sourceTree = "<group>"; };
 		F785BF6520907D2E00C12012 /* TraceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TraceManager.h; sourceTree = "<group>"; };
@@ -73,6 +85,9 @@
 		F785BF6920907DEA00C12012 /* Test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
 		F785BF6B20907DF700C12012 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
 		F785BF6C20907DF700C12012 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		F7C010C4209180A200436271 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F7C010CD2091B42700436271 /* NSObject+GetKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GetKeys.m"; sourceTree = "<group>"; };
+		F7C010CE2091B42700436271 /* NSObject+GetKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GetKeys.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +158,6 @@
 		F700C08E2090787E00FF3600 /* AopTestDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F785BF6120907CCD00C12012 /* TestViewController */,
 				F700C0C12090789000FF3600 /* CMAopPackage */,
 				F700C08F2090787E00FF3600 /* AppDelegate.h */,
 				F700C0902090787E00FF3600 /* AppDelegate.m */,
@@ -153,6 +167,7 @@
 				F700C0982090787E00FF3600 /* Assets.xcassets */,
 				F700C09A2090787E00FF3600 /* LaunchScreen.storyboard */,
 				F700C09D2090787E00FF3600 /* Info.plist */,
+				F7C010C4209180A200436271 /* PrefixHeader.pch */,
 				F700C09E2090787E00FF3600 /* main.m */,
 			);
 			path = AopTestDemo;
@@ -179,8 +194,9 @@
 		F700C0C12090789000FF3600 /* CMAopPackage */ = {
 			isa = PBXGroup;
 			children = (
-				F700C0C620907AE000FF3600 /* ForAppDelegate */,
-				F700C0C520907ACD00FF3600 /* ForViewController */,
+				F785BF6120907CCD00C12012 /* TestViewController */,
+				F7C010D12091B4B700436271 /* AOPTest */,
+				F7C010D02091B4A800436271 /* AOPTestWithPlist */,
 			);
 			path = CMAopPackage;
 			sourceTree = "<group>";
@@ -207,6 +223,18 @@
 			path = ForAppDelegate;
 			sourceTree = "<group>";
 		};
+		F772630C20917A7D00CAC501 /* ForAppDelegateWithPlist */ = {
+			isa = PBXGroup;
+			children = (
+				F77521422091E0C700E90F74 /* EventList.plist */,
+				F7C010CE2091B42700436271 /* NSObject+GetKeys.h */,
+				F7C010CD2091B42700436271 /* NSObject+GetKeys.m */,
+				F772630D20917AAB00CAC501 /* AspectMananer.h */,
+				F772630E20917AAB00CAC501 /* AspectMananer.m */,
+			);
+			path = ForAppDelegateWithPlist;
+			sourceTree = "<group>";
+		};
 		F785BF6120907CCD00C12012 /* TestViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,8 +242,29 @@
 				F785BF6920907DEA00C12012 /* Test1ViewController.m */,
 				F785BF6B20907DF700C12012 /* Test2ViewController.h */,
 				F785BF6C20907DF700C12012 /* Test2ViewController.m */,
+				F73C3E502091D6A800480219 /* Test3ViewController.h */,
+				F73C3E512091D6A800480219 /* Test3ViewController.m */,
+				F73C3E532091D6B400480219 /* Test4ViewController.h */,
+				F73C3E542091D6B400480219 /* Test4ViewController.m */,
 			);
 			path = TestViewController;
+			sourceTree = "<group>";
+		};
+		F7C010D02091B4A800436271 /* AOPTestWithPlist */ = {
+			isa = PBXGroup;
+			children = (
+				F772630C20917A7D00CAC501 /* ForAppDelegateWithPlist */,
+			);
+			path = AOPTestWithPlist;
+			sourceTree = "<group>";
+		};
+		F7C010D12091B4B700436271 /* AOPTest */ = {
+			isa = PBXGroup;
+			children = (
+				F700C0C620907AE000FF3600 /* ForAppDelegate */,
+				F700C0C520907ACD00FF3600 /* ForViewController */,
+			);
+			path = AOPTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +379,7 @@
 				F700C09C2090787E00FF3600 /* LaunchScreen.storyboard in Resources */,
 				F700C0992090787E00FF3600 /* Assets.xcassets in Resources */,
 				F700C0972090787E00FF3600 /* Main.storyboard in Resources */,
+				F77521432091E0C700E90F74 /* EventList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +453,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F785BF6A20907DEA00C12012 /* Test1ViewController.m in Sources */,
+				F73C3E552091D6B400480219 /* Test4ViewController.m in Sources */,
 				F700C0942090787E00FF3600 /* ViewController.m in Sources */,
+				F73C3E522091D6A800480219 /* Test3ViewController.m in Sources */,
+				F772630F20917AAB00CAC501 /* AspectMananer.m in Sources */,
 				F700C0C920907B8300FF3600 /* UIViewController+Trace.m in Sources */,
 				F785BF6D20907DF700C12012 /* Test2ViewController.m in Sources */,
 				F785BF6720907D2E00C12012 /* TraceManager.m in Sources */,
+				F7C010CF2091B42700436271 /* NSObject+GetKeys.m in Sources */,
 				F700C09F2090787E00FF3600 /* main.m in Sources */,
 				F700C0C420907AC400FF3600 /* TraceHandler.m in Sources */,
 				F785BF6420907D0E00C12012 /* AppDelegate+Trace.m in Sources */,
@@ -576,6 +630,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9A57BVG7J;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AopTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = AopTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cimain.block222.AopTestDemo;
@@ -591,6 +646,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9A57BVG7J;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/AopTestDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = AopTestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cimain.block222.AopTestDemo;
