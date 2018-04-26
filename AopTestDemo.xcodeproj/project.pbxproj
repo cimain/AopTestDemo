@@ -180,12 +180,12 @@
 			isa = PBXGroup;
 			children = (
 				F700C0C620907AE000FF3600 /* ForAppDelegate */,
-				F700C0C520907ACD00FF3600 /* ForCategory */,
+				F700C0C520907ACD00FF3600 /* ForViewController */,
 			);
 			path = CMAopPackage;
 			sourceTree = "<group>";
 		};
-		F700C0C520907ACD00FF3600 /* ForCategory */ = {
+		F700C0C520907ACD00FF3600 /* ForViewController */ = {
 			isa = PBXGroup;
 			children = (
 				F700C0C720907B8300FF3600 /* UIViewController+Trace.h */,
@@ -193,7 +193,7 @@
 				F700C0C220907AC400FF3600 /* TraceHandler.h */,
 				F700C0C320907AC400FF3600 /* TraceHandler.m */,
 			);
-			path = ForCategory;
+			path = ForViewController;
 			sourceTree = "<group>";
 		};
 		F700C0C620907AE000FF3600 /* ForAppDelegate */ = {

@@ -11,7 +11,7 @@
 
 @interface ViewController ()
 
-@property (nonatomic,strong)  UINavigationController *naviVC;
+@property (nonatomic,strong)  UINavigationController *subNav;
 
 @end
 
@@ -20,9 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    Test1ViewController *test1 = [[Test1ViewController alloc] init];
-    _naviVC = [[UINavigationController alloc] initWithRootViewController:test1];
-    [self.view addSubview:_naviVC.view];
+    Test1ViewController *test1VC = [[Test1ViewController alloc] init];
+    _subNav = [[UINavigationController alloc] initWithRootViewController:test1VC];
+    [self.view addSubview:_subNav.view];
 }
 
 - (void)viewDidAppear:(BOOL)animated{

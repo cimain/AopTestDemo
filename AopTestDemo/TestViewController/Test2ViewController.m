@@ -7,6 +7,7 @@
 //
 
 #import "Test2ViewController.h"
+#import "UIViewController+Trace.h"
 
 @interface Test2ViewController ()
 

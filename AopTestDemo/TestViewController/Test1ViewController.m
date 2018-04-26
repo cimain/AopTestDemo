@@ -20,6 +20,10 @@
     
     self.title = @"Test1ViewController";
     self.view.backgroundColor = [UIColor whiteColor];
+    [self setupSubViews];
+}
+
+- (void)setupSubViews{
     
     UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(100, 80, 100, 80)];
     [btn1 setTitle:@"Press_One" forState:UIControlStateNormal];
