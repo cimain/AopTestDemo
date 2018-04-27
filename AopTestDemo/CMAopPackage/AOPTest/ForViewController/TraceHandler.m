@@ -11,7 +11,7 @@
 @implementation TraceHandler
 
 + (void)statisticsWithEventName:(NSString *)eventName{
-    NSLog(@"-----> %@",eventName);
+    NSLog(@"TraceHandler-----> %@",eventName);
 }
 
 @end

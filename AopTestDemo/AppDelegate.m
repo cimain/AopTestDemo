@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-//#import "AppDelegate+Trace.h"
+#import "AppDelegate+Trace.h"
 #import "AspectMananer.h"
 
 #import <CocoaLumberjack/CocoaLumberjack.h>
@@ -15,6 +15,8 @@
 
 #import "Test1ViewController.h"
 
+
+#define testFlag 2
 
 @interface AppDelegate ()
 
@@ -32,11 +34,20 @@
     UINavigationController *nvi = [[UINavigationController alloc]initWithRootViewController:[Test1ViewController new]];
     self.window.rootViewController = nvi;
     
-    
     [self loadForDDLog];
     
-//    [AppDelegate setupLogging];
+#if testFlag==0
+//method swizzle && AOP with one selector
+//放开UIViewController+Trace.m的注释
+    
+#elif testFlag==1
+//AOP with Dict
+//放开AppDelegate+Trace.m的注释
+    [AppDelegate setupLogging];
+#elif testFlag==2
+// AOP with Plist
     [AspectMananer trackAspectHooks];
+#endif
     return YES;
 }
 

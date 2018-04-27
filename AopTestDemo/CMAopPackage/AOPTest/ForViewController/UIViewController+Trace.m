@@ -24,7 +24,8 @@
 //    // call original implementation
 //    [self swizzled_viewDidAppear:animated];
 //    // Begin statistics Event
-//    [TraceHandler statisticsWithEventName:@"swizzled_viewDidAppear of UIViewController"];
+//    NSString *className = NSStringFromClass([self class]);;
+//    [TraceHandler statisticsWithEventName:[NSString stringWithFormat:@"swizzled_viewDidAppear of UIViewController: %@",className]];
 //}
 //
 //void swizzleMethod(Class class,SEL originalSelector,SEL swizzledSelector){
@@ -50,7 +51,7 @@
 //                              withOptions:AspectPositionAfter
 //                               usingBlock:^(id<AspectInfo>aspectInfo){
 //                                   NSString *className = NSStringFromClass([[aspectInfo instance] class]);;
-//                                   [TraceHandler statisticsWithEventName:className];
+//                                   [TraceHandler statisticsWithEventName:[NSString stringWithFormat:@"hook viewDidAppear of UIViewController: %@",className]];
 //                               } error:nil];
 //}
 
