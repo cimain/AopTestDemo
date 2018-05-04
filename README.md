@@ -20,4 +20,4 @@ AopTestDemo: iOS埋点统计方案: 1.Method Swizzling 2.AOP编程
 
 ## 更多了解
 
-简书地址：[https://www.jianshu.com/p/3ac8130b72eb](https://www.jianshu.com/p/3ac8130b72eb)
+简书地址：[iOS数据埋点统计方案(附Demo): 运行时Method Swizzling机制与AOP编程(面向切面编程)](https://www.jianshu.com/p/3ac8130b72eb)
