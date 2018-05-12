@@ -38,8 +38,6 @@
     [button1 addTarget:self action:@selector(testClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button1];
     
-    
-    
     UIView *view = [[UIView alloc]initWithFrame:CGRectMake(200, 200, 90, 40)];
     view.backgroundColor = [UIColor yellowColor];
     [self.view addSubview:view];
@@ -49,11 +47,11 @@
 }
 
 -(void)tapClick{
+    
     NSLog(@"tap点击");
 }
 
 -(void)testClick:(NSDictionary *)sender{
-    
     
     NSLog(@"testClick");
 }
@@ -87,15 +85,12 @@
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:indentifier];
     }
     cell.textLabel.text = @"来点我呀";
-    
-    
     return cell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
 }
 
 - (void)didReceiveMemoryWarning {

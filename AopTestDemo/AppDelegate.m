@@ -44,6 +44,7 @@
 //AOP with Dict
 //放开AppDelegate+Trace.m的注释
     [AppDelegate setupLogging];
+    
 #elif testFlag==2
 // AOP with Plist
     [AspectMananer trackAspectHooks];

@@ -24,11 +24,6 @@
 			<string>testClick</string>
 			<key>MethodName</key>
 			<string>testClick:</string>
-			<key>Params</key>
-			<array>
-				<string>userName</string>
-				<string>mobile</string>
-			</array>
 		</dict>
 		<dict>
 			<key>EventId</key>
